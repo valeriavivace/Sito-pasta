@@ -18,6 +18,17 @@ html{
 h1{
   font-size: 4rem;
 }
+h2{
+  font-size: 3rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+hr{
+  max-width: 50px;
+  margin-left: 0px;
+  border: orange solid 2px;
+}
+
 /*****HEADER***/
 header{
   display: flex;
@@ -44,7 +55,7 @@ header li{
 }
 header a{
   text-decoration: none;
-  color: dimgray;
+  color: black;
 }
 header a:hover{
   color: orange;
@@ -73,4 +84,22 @@ header a:hover{
 .mouse{
   padding-top: 100px;
   width: 60px;
+}
+.box-testo{
+  float: left;
+  display: block;
+  display: table;
+  padding: 100px 60px 100px 60px;
+}
+
+.info-testo{
+  width: 40%;
+  float: left
+}
+.info-testo h2{
+  text-align: left;
+}
+.testo{
+  width: 60%;
+  float: right;
 }
