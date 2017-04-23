@@ -12,20 +12,20 @@ html{
 .orange{
   color:orange;
 }
-.text-uppercase{
-  text-transform: uppercase;
-}
 h1{
   font-size: 4rem;
 }
 h2{
   font-size: 3rem;
   padding-bottom: 10px;
-  text-align: center;
+  padding-left: 50px;
+}
+h3{
+  font-size: 1rem;
 }
 hr{
   max-width: 50px;
-  margin-left: 0px;
+  margin-left: 50px;
   border: orange solid 2px;
 }
 
@@ -33,15 +33,16 @@ hr{
 header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   padding:20px 40px;
 }
+
 .logo{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   content: '';
-  border: 5px solid orange;
+  border: 4px solid orange;
 }
 header li{
   display: inline-block;
@@ -85,21 +86,10 @@ header a:hover{
   padding-top: 100px;
   width: 60px;
 }
-.box-testo{
-  float: left;
-  display: block;
-  display: table;
-  padding: 100px 60px 100px 60px;
+.info-principale{
+  display: flex;
+  align-items: stretch;
 }
-
-.info-testo{
-  width: 40%;
-  float: left
-}
-.info-testo h2{
-  text-align: left;
-}
-.testo{
-  width: 60%;
-  float: right;
+.pasta-info:first-child{
+  margin-left:200px;
 }

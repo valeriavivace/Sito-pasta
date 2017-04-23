@@ -3,43 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Sito pasta</title>
-    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset200802.css">
-    <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div class="logo"></div>
-      <nav>
-        <ul>
-          <li><a href="#" class="menu-attivo">Home</a></li>
-          <li><a href="#">Prodotti</a></li>
-          <li><a href="#">Ricette</a></li>
-          <li><a href="#">Contatti</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="hero-immagine">
-        <a href="#">
-          <div class="hero-immagine-info">
-            <h1 class="bold black">pasta &amp; co.</h1>
-            <p class="text-uppercase orange">La pasta online</p>
-            <img class="mouse" src="https://image.flaticon.com/icons/svg/132/132936.svg" alt="">
+    <div class="container-fluid">
+      <header>
+        <div class="logo"></div>
+        <nav>
+          <ul>
+            <li><a href="#" class="menu-attivo">Home</a></li>
+            <li><a href="#">Prodotti</a></li>
+            <li><a href="#">Ricette</a></li>
+            <li><a href="#">Contatti</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="container-fluid">
+      <main>
+        <div class="row">
+          <div class="hero-immagine">
+            <a href="#">
+              <div class="hero-immagine-info">
+                <h1 class="bold black">pasta &amp; co.</h1>
+                <p class="text-uppercase orange">La pasta online</p>
+                <img class="mouse" src="https://image.flaticon.com/icons/svg/132/132936.svg" alt="">
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      <div class="box-testo">
-        <div class="info-testo">
-          <h2>Contatti</h2>
-          <hr>
         </div>
-        <div class="testo">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      </main>
+    </div>
+    <div class="container">
+      <h2>Lorem ipsum</h2>
+      <hr>
+      <div class="row info-principale">
+        <div class="pasta-info col-xs-12 col-sm-3">
+          <h3 class="text-uppercase bold">Il grano</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
+        <div class="pasta-info col-xs-12 col-sm-3">
+          <h3 class="text-uppercase bold">Trafilata al bronzo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="pasta-info col-xs-12 col-sm-3">
+          <h3 class="text-uppercase bold">Formati tipici</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+
       </div>
-    </main>
+    </div>
+
   </body>
 </html>
