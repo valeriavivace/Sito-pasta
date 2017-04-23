@@ -1,0 +1,5 @@
+@media (max-width:800px) {
+  .pasta-info:first-child{
+    margin-left:0;
+  }
+}
