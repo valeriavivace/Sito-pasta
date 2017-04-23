@@ -1,0 +1,36 @@
+html{
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+/*****HEADER***/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 40px;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  content: '';
+  border: 5px solid orange;
+}
+header li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.menu-attivo{
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 2px solid orange;
+}
+header a{
+  text-decoration: none;
+  color: dimgray;
+}
+header a:hover{
+  color: orange;
+}
