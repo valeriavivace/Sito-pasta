@@ -36,8 +36,10 @@ header{
   justify-content:space-between;
   padding:20px 40px;
 }
-
-.logo{
+nav{
+  text-align: right;
+}
+.simbolo-logo{
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -53,6 +55,9 @@ header li{
   padding-left: 5px;
   padding-right: 5px;
   border-bottom: 2px solid orange;
+}
+.menu-attivo:hover{
+  text-decoration: none;
 }
 header a{
   text-decoration: none;
