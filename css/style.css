@@ -18,14 +18,13 @@ h1{
 h2{
   font-size: 3rem;
   padding-bottom: 10px;
-  padding-left: 50px;
 }
 h3{
   font-size: 1rem;
 }
 .linea-h2{
   max-width: 50px;
-  margin-left: 50px;
+  margin-left: 0;
   border: orange solid 2px;
 }
 header a:hover,
@@ -166,3 +165,18 @@ footer a,footer p{
 /*******************************************/
 
 /************PRODOTTI.HTML******************/
+.info-pagina{
+  padding: 50px 0;
+}
+.prodotti{
+  display:flex;
+  margin-top: 30px;
+}
+.box-prodotto{
+  margin-right: 20px;
+  padding: 20px;
+  background-color:#f4debf;
+}
+.box-prodotto a{
+  color: #fca932;
+}
