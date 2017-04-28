@@ -21,11 +21,12 @@
     justify-content: space-between;
     padding-top: 10px;
   }
-  .info-principale{
-    padding:50px 0;
+  .info-in-primo-piano{
+    padding:50px 20px;
   }
   .pasta-info{
     margin-left: 10px;
     padding: 10px;
   }
+
 }

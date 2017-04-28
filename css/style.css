@@ -39,7 +39,7 @@ header{
 nav{
   text-align: right;
 }
-.simbolo-logo{
+.simbolo-logo-header{
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -88,7 +88,7 @@ header a:hover{
   padding-top: 100px;
   width: 60px;
 }
-.info-principale{
+.info-in-primo-piano{
   padding:100px 0;
 }
 .pasta-info:first-child{
@@ -103,10 +103,23 @@ header a:hover{
   background-size: cover;
 }
 .pasta-foto-info{
-  height: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 50px;
 }
 .pasta-foto-info p{
   padding: 0 150px 0 50px;
+}/****FOOTER****/
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #363b39;
+}
+.simbolo-logo-footer{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  content: '';
+  border: 4px solid white;
 }
