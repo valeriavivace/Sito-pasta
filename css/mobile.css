@@ -16,10 +16,16 @@
     padding-left: 0;
   }
   header li{
-    display:flex;
+    display:block;
     margin-left: 0;
-    justify-content: space-between;
-    padding-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .menu-attivo{
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid orange;
   }
   .info-in-primo-piano{
     padding:50px 20px;
@@ -44,5 +50,11 @@
   }
   .slide-prodotto{
     display: block;
+  }
+  footer li{
+    text-align: center;
+    display:block;
+    padding-top: 10px;
+    padding-left: 0;
   }
 }
