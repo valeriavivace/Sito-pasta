@@ -113,7 +113,8 @@ header a{
 }
 .pasta-foto-info p{
   padding: 0 150px 0 50px;
-}/****FOOTER****/
+}
+/****FOOTER****/
 .footer-info{
   display: flex;
   flex-direction: column;

@@ -38,6 +38,12 @@
     text-align: left;
     padding-left: 40px;
   }
+  .pasta-foto-info{
+    padding-left:10px;
+  }
+  .pasta-foto-info p{
+    padding: 20px;
+  }
   .prodotti{
     display: block;
   }
