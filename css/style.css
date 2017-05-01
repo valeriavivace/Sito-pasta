@@ -12,8 +12,11 @@ html{
 .orange{
   color:orange;
 }
+ul{
+  padding-left: 0;
+}
 p,li{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 h1{
   font-size: 4rem;
@@ -27,6 +30,12 @@ h3{
 }
 h4,td,th{
   font-size: 1rem;
+}
+input{
+  font-size:1.5rem;
+}
+iframe{
+  font-size: 1.5rem;
 }
 .linea-h2{
   max-width: 50px;
@@ -127,7 +136,7 @@ header a{
   justify-content: center;
   align-items: center;
   background-color: #363b39;
-  padding-top: 100px;
+  padding: 100px 50px 50px 50px;
 }
 .simbolo-logo-footer{
   width: 40px;
@@ -216,9 +225,6 @@ main{
   .paginazione{
     padding-bottom: 30px;
   }
-  .img-responsive-carosello{
-    max-width: 70%;
-  }
 /***************************/
 /******RICETTE**************/
 .immagine-in-primo-piano{
@@ -247,14 +253,17 @@ main{
   border-bottom: 1px solid gray;
 }
 .box-contatti{
+  padding: 50px 0;
+}
+.box-input{
   padding: 50px;
 }
 iframe{
   width: 100%;
-  padding: 30px;
 }
 input{
   border: none;
+  display: block;
   padding-top: 20px;
   border-bottom: 2px black solid;
   width: 300px;
