@@ -240,3 +240,25 @@ main{
 .box-tabella{
   padding-bottom: 100px;
 }
+/***********************/
+/*******CONTATTI*****/
+.border-contatti{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.box-contatti{
+  padding: 50px;
+}
+iframe{
+  width: 100%;
+  padding: 30px;
+}
+input{
+  border: none;
+  padding-top: 20px;
+  border-bottom: 2px black solid;
+  width: 300px;
+}
+.input-message{
+  padding-bottom: 100px;
+}
