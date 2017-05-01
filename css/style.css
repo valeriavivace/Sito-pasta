@@ -219,10 +219,12 @@ main{
   }
 /***************************/
 /******RICETTE**************/
-
 .valori-nutrizionali th,
 .valori-nutrizionali td{
   padding-top: 20px;
+}
+.valori-nutrizionali th{
+  padding-right: 40px;
 }
 .valori-nutrizionali td{
   padding-right: 20px;
