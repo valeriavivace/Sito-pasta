@@ -1,4 +1,7 @@
-@media (max-width:900px) {
+@media (max-width:900px){
+  html{
+    font-size: 35px;
+  }
   .pasta-info:first-child{
     margin-left: 10px;
   }
@@ -8,6 +11,11 @@
   .logo, header nav{
     display: flex;
     justify-content: center;
+  }
+  .simbolo-logo-header,
+  .simbolo-logo-footer{
+    width: 80px;
+    height: 80px;
   }
   header nav{
     padding-top: 20px;
@@ -19,7 +27,10 @@
     display:block;
     margin-left: 0;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+  }
+  header a{
+    padding: 40px;
   }
   .menu-attivo{
     padding-bottom: 10px;
@@ -34,15 +45,12 @@
     margin-left: 10px;
     padding: 10px;
   }
+  .pasta-foto-info p{
+    padding: 50px 20px 50px 0;
+  }
   .info-pagina{
     text-align: left;
     padding-left: 40px;
-  }
-  .pasta-foto-info{
-    padding-left:10px;
-  }
-  .pasta-foto-info p{
-    padding: 20px;
   }
   .prodotti{
     display: block;
@@ -57,10 +65,14 @@
   .slide-prodotto{
     display: block;
   }
+  .linea-footer{
+    margin-top: 30px;
+    border-width: 3px;
+  }
   footer li{
     text-align: center;
     display:block;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 0;
   }
 }
