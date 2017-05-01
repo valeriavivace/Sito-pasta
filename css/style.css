@@ -33,6 +33,9 @@ h4,td,th{
   margin-left: 0;
   border: orange solid 2px;
 }
+.box-prodotto a{
+  font-size: 1.5rem;
+}
 header a:hover,
 footer a:hover{
   color: orange;
@@ -72,7 +75,6 @@ header a{
   text-decoration: none;
   color: black;
 }
-
 /*****MAIN**/
 
 .hero-immagine{
@@ -219,6 +221,9 @@ main{
   }
 /***************************/
 /******RICETTE**************/
+.immagine-in-primo-piano{
+  padding-bottom: 100px;
+}
 .valori-nutrizionali th,
 .valori-nutrizionali td{
   padding-top: 20px;
@@ -231,4 +236,7 @@ main{
 }
 .intestazione-tabella{
   padding-top: 0;
+}
+.box-tabella{
+  padding-bottom: 100px;
 }

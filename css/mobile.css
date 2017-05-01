@@ -2,6 +2,19 @@
   html{
     font-size: 35px;
   }
+/****TYPO*******/
+p,li{
+  font-size: 1.5rem;
+}
+h1{
+  font-size: 4rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4,td,th{
+  font-size: 1.5rem;
+}
 /*********HEADER***/
   header{
     display:block;
@@ -61,10 +74,7 @@
   .pasta-foto-info p{
     padding: 50px 20px 50px 0;
   }
-  .box-1{
-    text-align: left;
-    padding-left: 40px;
-  }
+
 /**********PRODOTTI******/
   .prodotti{
     display: block;
@@ -80,6 +90,10 @@
   }
   .img-responsive-carosello{
     max-width: 100%;
+  }
+  .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
   }
   .linea-footer{
     margin-top: 30px;
