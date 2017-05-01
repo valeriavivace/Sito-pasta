@@ -136,8 +136,9 @@ header a{
 }
 .linea-footer{
   width: 150px;
-  border: orange solid 1px;
-  text-align: center;
+  height: 3px;
+  background-color: orange;
+  border-top: none;
 }
 footer nav{
   padding: 40px 0;
@@ -149,7 +150,8 @@ footer li{
   display: inline-block;
   padding-left: 20px;
 }
-footer a,footer p{
+footer a,
+footer p{
   color: white;
 }
 #mail{
