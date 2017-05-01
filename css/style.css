@@ -25,7 +25,7 @@ h2{
 h3{
   font-size: 2rem;
 }
-h4{
+h4,td,th{
   font-size: 1rem;
 }
 .linea-h2{
@@ -193,9 +193,6 @@ footer p{
 main{
   position: relative;
 }
-.carosello{
-  height: 500px;
-}
 .slide-prodotto {
   width: 100%;
   padding: 0 50px;
@@ -217,5 +214,19 @@ main{
   .paginazione{
     padding-bottom: 30px;
   }
+  .img-responsive-carosello{
+    max-width: 70%;
+  }
 /***************************/
 /******RICETTE**************/
+
+.valori-nutrizionali th,
+.valori-nutrizionali td{
+  padding-top: 20px;
+}
+.valori-nutrizionali td{
+  padding-right: 20px;
+}
+.intestazione-tabella{
+  padding-top: 0;
+}

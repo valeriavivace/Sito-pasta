@@ -2,9 +2,7 @@
   html{
     font-size: 35px;
   }
-  .pasta-info:first-child{
-    margin-left: 10px;
-  }
+/*********HEADER***/
   header{
     display:block;
   }
@@ -38,12 +36,27 @@
     padding-right: 0;
     border-bottom: 2px solid orange;
   }
-  .box-2{
+/***********************/
+
+/*******FOOTER*******/
+    footer li{
+      text-align: center;
+      display:block;
+      padding-top: 40px;
+      padding-left: 0;
+    }
+/*********************/
+
+/**********INDEX.HTML******/
+  .box-testo{
     padding:50px 20px;
   }
   .pasta-info{
     margin-left: 10px;
     padding: 10px;
+  }
+  .pasta-info:first-child{
+    margin-left: 10px;
   }
   .pasta-foto-info p{
     padding: 50px 20px 50px 0;
@@ -52,6 +65,7 @@
     text-align: left;
     padding-left: 40px;
   }
+/**********PRODOTTI******/
   .prodotti{
     display: block;
   }
@@ -59,20 +73,32 @@
     margin-top: 20px;
   }
   .carosello{
-    height: 800px;
     padding: 30px 0;
   }
   .slide-prodotto{
     display: block;
   }
+  .img-responsive-carosello{
+    max-width: 100%;
+  }
   .linea-footer{
     margin-top: 30px;
     border-width: 3px;
   }
-  footer li{
-    text-align: center;
-    display:block;
-    padding-top: 40px;
-    padding-left: 0;
-  }
+/********RICETTE*****/
+.immagine-in-primo-piano{
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.box-tabella{
+  padding: 200px 50px;
+}
+.valori-nutrizionali th{
+  padding-right: 40px;
+}
+.intestazione-tabella{
+  padding-top: 0;
+}
+
 }
