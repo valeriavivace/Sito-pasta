@@ -8,7 +8,7 @@
   header{
     display:block;
   }
-  .logo, header nav{
+  .box-logo, header nav{
     display: flex;
     justify-content: center;
   }
@@ -38,7 +38,7 @@
     padding-right: 0;
     border-bottom: 2px solid orange;
   }
-  .info-in-primo-piano{
+  .box-2{
     padding:50px 20px;
   }
   .pasta-info{
@@ -48,7 +48,7 @@
   .pasta-foto-info p{
     padding: 50px 20px 50px 0;
   }
-  .info-pagina{
+  .box-1{
     text-align: left;
     padding-left: 40px;
   }
