@@ -40,7 +40,10 @@ iframe{
 .linea-h2{
   max-width: 50px;
   margin-left: 0;
-  border: orange solid 2px;
+  width: 150px;
+  height: 3px;
+  background-color: orange;
+  border-top: none;
 }
 .box-prodotto a{
   font-size: 1.5rem;
