@@ -227,8 +227,12 @@ main{
   }
 /***************************/
 /******RICETTE**************/
+.ricette{
+  display: flex;
+}
 .ricette a{
   color: black;
+  text-decoration: none;
 }
 .box-ricetta{
   display: block;
@@ -237,6 +241,7 @@ main{
   background-size: cover;
   position: relative;
   margin-right: 20px;
+  margin-top: 20px;
 }
 .box-ricetta-info{
   background:rgba(0, 0, 0, 0.5);
@@ -258,6 +263,9 @@ main{
   width: 100%;
   height: 100%;
   background: red;
+}
+.immagine-in-primo-piano{
+  padding: 40px 0;
 }
 .valori-nutrizionali th,
 .valori-nutrizionali td{

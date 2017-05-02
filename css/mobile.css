@@ -112,6 +112,12 @@ h4,td,th{
 .intestazione-tabella{
   padding-top: 0;
 }
+.ricette{
+  display: block;
+}
+.box-ricetta{
+  width: 100%;
+}
 /********CONTATTI***/
 .border-contatti{
   padding: 50px 0;
