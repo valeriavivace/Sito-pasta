@@ -55,10 +55,10 @@ footer a:hover{
 /************INDEX-HTML******************/
 /*****HEADER***/
 header{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
   padding:20px 40px;
+}
+header ul{
+  margin-bottom: 0;
 }
 header nav{
   text-align: right;
