@@ -62,18 +62,16 @@ h4,td,th{
 /*********************/
 
 /**********INDEX.HTML******/
-  .box-testo{
-    padding:50px 20px;
-  }
-  .pasta-info{
+  .box-pasta-info{
     margin-left: 10px;
     padding: 10px;
   }
-  .pasta-info:first-child{
+  .box-pasta-info:first-child{
     margin-left: 10px;
   }
-  .pasta-foto-info p{
-    padding: 50px 20px 50px 0;
+  .pasta-in-primo-piano{
+    height: 900px;
+    display: block;
   }
 
 /**********PRODOTTI******/
