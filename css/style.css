@@ -106,10 +106,7 @@ header a{
   padding: 100px;
 }
 .pasta-info{
-  padding: 50px;
-}
-.box-pasta-info:first-child{
-  margin-left:50px;
+  padding: 50px 0;
 }
 .pasta-in-primo-piano{
   height: 50rem;
