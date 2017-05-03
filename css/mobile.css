@@ -4,7 +4,7 @@
   }
 /****TYPO*******/
 p,li{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 h1{
   font-size: 4rem;
@@ -14,6 +14,12 @@ h3{
 }
 h4,td,th{
   font-size: 1.5rem;
+}
+.linea-h2{
+  width:180px;
+  height: 5px;
+  background-color: orange;
+  border-top: none;
 }
 /*********HEADER***/
   header{
@@ -62,6 +68,12 @@ h4,td,th{
 /*********************/
 
 /**********INDEX.HTML******/
+.box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   .box-pasta-info{
     margin-left: 10px;
     padding: 10px;
@@ -79,7 +91,7 @@ h4,td,th{
     display: block;
   }
   .box-prodotto{
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .carosello{
     padding: 30px 0;
@@ -115,13 +127,26 @@ h4,td,th{
 }
 .box-ricetta{
   width: 100%;
+  padding: 80px;
   margin-top: 50px;
 }
 /********CONTATTI***/
+.box-input{
+  text-align: center;
+}
 .border-contatti{
   padding: 50px 0;
 }
 input{
   width: 600px;
 }
+}
+@media (min-width:900px){
+  .linea-h2{
+    margin-left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    border-top: none;
+  }
 }

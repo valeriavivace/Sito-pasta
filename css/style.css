@@ -37,14 +37,6 @@ input{
 iframe{
   font-size: 1.5rem;
 }
-.linea-h2{
-  max-width: 50px;
-  margin-left: 0;
-  width: 150px;
-  height: 3px;
-  background-color: orange;
-  border-top: none;
-}
 .box-prodotto a{
   font-size: 1.5rem;
 }
@@ -111,8 +103,7 @@ header a{
   width: 60px;
 }
 .box-testo{
-  padding-top:100px;
-  padding-bottom: 100px;
+  padding: 100px;
 }
 .pasta-info{
   padding: 50px;
@@ -121,7 +112,7 @@ header a{
   margin-left:50px;
 }
 .pasta-in-primo-piano{
-  height: 100vh;
+  height: 50rem;
   display: flex;
   align-items: stretch;
 }
@@ -312,7 +303,7 @@ input{
   display: block;
   padding-top: 20px;
   border-bottom: 2px black solid;
-  width: 300px;
+  width: 15rem;
 }
 .input-message{
   padding-bottom: 100px;
