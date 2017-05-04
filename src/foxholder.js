@@ -3,10 +3,10 @@ jQuery.fn.foxholder = function(number) {
 
   //adding labels with placeholders content. Removing placeholders
   this.find('form').find('input,textarea').each(function() {
-    var placeholderText, formItemId, inputType; 
+    var placeholderText, formItemId, inputType;
 
     //wrapping form elements in their oun <div> tags
-    jQuery(this).wrap('<div class="form-item-block"></div>'); 
+    jQuery(this).wrap('<div class="form-item-block"></div>');
 
     //creating labels
     inputType = jQuery(this).attr('type');
@@ -30,7 +30,7 @@ jQuery.fn.foxholder = function(number) {
     }
   });
 
-  //adding line-height for block with textarea 
+  //adding line-height for block with textarea
   jQuery('.form-item-block').each(function() {
     if (jQuery(this).has('textarea').length > 0) {
       jQuery(this).css({'line-height': '0px'});
@@ -148,7 +148,7 @@ jQuery.fn.foxholder = function(number) {
         });
       } else {
         jQuery(this).siblings('.overlay').css({
-          'width': labelWidth, 
+          'width': labelWidth,
           'height' : labelHeight + 40,
           'left': 0 - (labelWidth + 40),
         });
@@ -241,7 +241,7 @@ jQuery.fn.foxholder = function(number) {
       } else {
         jQuery(this).css({'padding-left': 20});
       }
-    });    
+    });
 
   }
 
@@ -266,7 +266,7 @@ jQuery.fn.foxholder = function(number) {
         jQuery(this).css({'padding-left': 20});
       }
     });
-    
+
   }
 
 }
