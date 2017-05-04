@@ -16,7 +16,7 @@ ul{
   padding-left: 0;
 }
 p,li{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 h1{
   font-size: 4rem;
@@ -39,6 +39,19 @@ iframe{
 }
 .box-prodotto a{
   font-size: 1.5rem;
+}
+.ancora-scopri{
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10%;
+  font-size: 1rem;
+}
+.ancora-scopri:hover{
+  background-color: white;
+  color: orange;
+  border: 2px orange solid;
+  text-decoration: none;
 }
 header a:hover,
 footer a:hover{
@@ -80,7 +93,6 @@ header a{
   color: black;
 }
 /*****MAIN**/
-
 .hero-immagine{
   background-image: url(../images/pasta-min.jpg);
   background-size: cover;
@@ -108,6 +120,9 @@ header a{
 .pasta-info{
   padding: 50px 0;
 }
+.box-pasta-info p{
+  margin-bottom: 50px;
+}
 .pasta-in-primo-piano{
   height: 50rem;
   display: flex;
@@ -120,7 +135,7 @@ header a{
   background-position: center;
 }
 .pasta-in-primo-piano_info{
-  padding: 70px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;

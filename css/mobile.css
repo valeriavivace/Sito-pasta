@@ -21,6 +21,9 @@ h4,td,th{
   background-color: orange;
   border-top: none;
 }
+.ancora-scopri{
+  font-size: 1.5rem;
+}
 /*********HEADER***/
   header{
     display:block;
@@ -75,14 +78,17 @@ h4,td,th{
   align-items: center;
 }
   .box-pasta-info{
-    margin-left: 10px;
+    margin-top: 100px;
     padding: 10px;
   }
-  .box-pasta-info:first-child{
-    margin-left: 10px;
+  .box-testo{
+    display: flex;
+    flex-direction: column;
+  }
+  .box-testo h2{
+    text-align: center;
   }
   .pasta-in-primo-piano{
-    height: 900px;
     display: block;
   }
 
