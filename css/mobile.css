@@ -24,6 +24,9 @@ h4,td,th{
 .ancora-scopri{
   font-size: 1.5rem;
 }
+.ancora-messaggio{
+  padding: 100px 50px;
+}
 /*********HEADER***/
   header{
     display:block;
@@ -145,6 +148,21 @@ h4,td,th{
 }
 input{
   width: 600px;
+}
+input#first-input-2,
+input#second-input-2{
+  padding: 80px;
+  margin-bottom: 50px;
+}
+textarea#msg-2{
+  padding-bottom: 300px;
+  margin-bottom: 200px;
+}
+.form-container-2 {
+  margin-bottom: 200px;
+}
+form{
+  font-size: 1.5rem;
 }
 }
 @media (min-width:900px){

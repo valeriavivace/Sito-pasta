@@ -332,3 +332,6 @@ iframe{
 .input-animazione{
   display: block;
 }
+form{
+  font-size: 1rem;
+}
