@@ -129,9 +129,17 @@ header a{
 .box-testo{
   padding: 100px;
 }
+
 .pasta-info{
-  padding: 50px 0;
-}
+  padding: 20px 0;
+  }
+  @media (min-width:900px){
+    .pasta-info{
+      padding-top: 50px;
+    }
+  }
+
+
 .box-pasta-info p{
   margin-bottom: 50px;
 }
@@ -139,7 +147,14 @@ header a{
   height: 50rem;
   display: flex;
   align-items: stretch;
-}
+  }
+  @media (min-width:900px){
+    .pasta-in-primo-piano{
+      padding-top: 50px;
+    }
+  }
+
+
 .pasta-in-primo-piano_foto{
   height: 100%;
   background-image: url(../images/spaghetti-al-pomodoro-2-min.jpg);
@@ -221,7 +236,15 @@ footer p{
   margin-right: 20px;
   padding: 20px;
   background-color:#f4debf;
+  color: #000;
+  transition: 0.1s all ease-in-out;
 }
+.box-prodotto:hover{
+  background-color: orange;
+  color: #FFF;
+  text-decoration: none;
+}
+
 .box-prodotto a{
   color: #fca932;
 }

@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Prodotti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ripplebutton.css">
     <link rel="stylesheet" href="css/mobile.css">
   </head>
   <body>
@@ -28,17 +30,24 @@
       <div class="container">
         <div class="box-1 row">
           <h2>Prodotti</h2>
+
+          <button id="js-ripple-btn" class="button styl-material">
+    				Click for Ripple
+    				<svg class="ripple-obj" id="js-ripple">
+    					<use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+    				</svg>
+    			</button>
+
           <hr class="linea-h2">
         </div>
         <div class="row prodotti">
-          <div class="box-prodotto col-xs-12 col-md-3">
+          <a href="#" class="box-prodotto col-xs-12 col-md-3">
             <img class="img-responsive" src="images/penna-min.png" alt="">
             <h4 class="bold">Nome prodotto</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="#" class="bold">Scopri</a>
-          </div>
+          </a>
           <div class="box-prodotto col-xs-12 col-md-3">
             <img class="img-responsive" src="images/penna-min.png" alt="">
             <h4 class="bold">Nome prodotto</h4>
@@ -284,5 +293,18 @@
          loop:true
      });
    </script>
+     <!-- GreenSock Power : Required for Demo -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+  	<script src="js/ripple-config.js"></script>
+
+    <!-- SVG Sprite -->
+	<div style="height: 0; width: 0; position: absolute; visibility: hidden;" aria-hidden="true">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+			<symbol id="ripply-scott" viewBox="0 0 100 100">
+				<circle id="ripple-shape" cx="1" cy="1" r="1" />
+			</symbol>
+		</svg>
+	</div>
+	<!-- /end sprite -->
   </body>
 </html>
